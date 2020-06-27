@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="utf-8">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="page-container">
+    
+    <header class="header">
+         <a class="link-title" href="index.html">Engineering Website</a>
+    </header>
+        
+    <nav class="menu">
+        <a href="index.html">Home</a> &nbsp; &nbsp; &nbsp;
+        <a href="about.html">About Us</a>&nbsp; &nbsp; &nbsp;
+        <a href="contact.html">Contacts</a>
+    </nav>
+        
+    
+    <article class="main">
+        
+        <h1 class="page-heading">Contact</h1>
+        <div id="form">
+            <form method="post" action="process1.php">
+                <p>
+                <label for="name">Name:</label>
+                <input type="text" name="name" placeholder="Your Name...." required></p>
+                <p>
+                <label for="name">Email:</label>
+                <input type="text" name="email" placeholder="Your Email..." required></p>
+                <p>
+                <label for="name">Subject:</label>
+                <input type="text" name="subject"placeholder="Your Subject..." required></p>
+                <p>
+                <label for="name">Message:</label>
+                <textarea name="message" placeholder="Discription..." id="message" cols="30" rows="10" required></textarea></p>
+                
+                <p>
+                    <input id="submit" type="submit" name="submit" value="Send Message">
+                </p>
+            </form>
+        </div>
+        
+        
+    </article>
+        
+    <footer>
+        &copy 2123 Engineering Website &nbsp;<span class="seperator">|</span>Created by <a href="http://poojapan.com">Pooja P.</a>
+    </footer>
+    </div>
+    
+</body>
+</html>
